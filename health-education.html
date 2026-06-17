@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Education</title>
+    <link rel="stylesheet" href="./css/health-education.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#">Sierra Health Connect</a>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li class="hidden">
+          <a href="./healthserices.html">Health Services</a>
+        </li>
+        <li class="hidden">
+          <a href="./health-education.html">Health Education</a>
+        </li>
+        <li class="hidden"><a href="./health-alert.html">Health Alerts</a></li>
+        <li class="hidden">
+          <a href="./emergency.html">Emergency Contacts</a>
+        </li>
+        <li><a href="./contact.html">Contacts</a></li>
+      </ul>
+      <button type="button" class="let-talk">📞 Emergency</button>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="Overlay"></div>
+
+      <div class="content">
+        <h1>Learn About Your Health</h1>
+        <p>
+          Reliable health information to help you and your family stay healthy.
+          Explore topics <br />on disease prevention, maternal care, nutrition,
+          and more.
+        </p>
+      </div>
+    </section>
+
+    <section class="health-education">
+      <!-- Tab Buttons -->
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="malaria">
+          ☀️ Malaria Prevention
+        </button>
+        <button class="tab-btn" data-tab="maternal">♀️ Maternal Health</button>
+        <button class="tab-btn" data-tab="child">✏️ Child Immunization</button>
+        <button class="tab-btn" data-tab="nutrition">
+          🍽️ Nutrition & Healthy Living
+        </button>
+        <button class="tab-btn" data-tab="disease">
+          🛡️ Disease Prevention Tips
+        </button>
+      </div>
+
+      <!-- Tab Content -->
+      <div class="tab-content-wrapper">
+        <!-- Tab 1: Malaria -->
+        <div class="tab-content active" id="malaria">
+          <div class="content-grid">
+            <div class="main-content">
+              <div class="content-header">
+                <div class="icon-box green">☀️</div>
+                <h2>Malaria Prevention</h2>
+              </div>
+
+              <p>
+                Malaria remains one of the leading causes of illness and death
+                in Sierra Leone, particularly among children under five and
+                pregnant women. Understanding prevention is crucial.
+              </p>
+
+              <h3>Key Facts</h3>
+              <div class="facts-box">
+                <div class="fact-item">
+                  <span class="fact-num">1</span>
+                  <p>
+                    Malaria is transmitted through the bite of infected female
+                    Anopheles mosquitoes, which typically bite at night.
+                  </p>
+                </div>
+                <div class="fact-item">
+                  <span class="fact-num">2</span>
+                  <p>
+                    Sierra Leone has one of the highest malaria burdens in the
+                    world, with transmission occurring year-round, peaking
+                    during the rainy season (May to November).
+                  </p>
+                </div>
+                <div class="fact-item">
+                  <span class="fact-num">3</span>
+                  <p>
+                    Children under five and pregnant women are at the highest
+                    risk of severe illness and death from malaria.
+                  </p>
+                </div>
+                <div class="fact-item">
+                  <span class="fact-num">4</span>
+                  <p>
+                    Early diagnosis and prompt treatment with artemisinin-based
+                    combination therapies (ACTs) are essential for recovery.
+                  </p>
+                </div>
+              </div>
+
+              <h3>Prevention & Action Tips</h3>
+              <div class="tips-box">
+                <div class="tip-item">
+                  ✓ Sleep under insecticide-treated mosquito nets (ITNs) every
+                  night, all year round.
+                </div>
+                <div class="tip-item">
+                  ✓ Seek medical attention immediately if you or your child
+                  develops fever, chills, headache, or body aches.
+                </div>
+                <div class="tip-item">
+                  ✓ Pregnant women should attend all antenatal visits and take
+                  intermittent preventive treatment (IPTp) as prescribed.
+                </div>
+                <div class="tip-item">
+                  ✓ Eliminate standing water around your home where mosquitoes
+                  breed — cover water containers and clear blocked drains.
+                </div>
+                <div class="tip-item">
+                  ✓ Wear long-sleeved clothing and use mosquito repellent in the
+                  evenings.
+                </div>
+              </div>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+              <h4>Other Topics</h4>
+              <button class="side-link" data-tab="maternal">
+                ♀️ Maternal Health
+              </button>
+              <button class="side-link" data-tab="child">
+                ✏️ Child Immunization
+              </button>
+              <button class="side-link" data-tab="nutrition">
+                🍽️ Nutrition & Healthy Living
+              </button>
+              <button class="side-link" data-tab="disease">
+                🛡️ Disease Prevention Tips
+              </button>
+            </aside>
+          </div>
+        </div>
+
+        <!-- Tab 2: Maternal Health - duplicate structure, change content -->
+        <div class="tab-content" id="maternal">
+          <div class="content-grid">
+            <div class="main-content">
+              <div class="content-header">
+                <div class="icon-box pink">♀️</div>
+                <h2>Maternal Health</h2>
+              </div>
+              <p>
+                Regular antenatal care saves lives. Every pregnant woman
+                deserves quality care before, during, and after delivery.
+              </p>
+              <h3>Key Facts</h3>
+              <div class="facts-box">
+                <div class="fact-item">
+                  <span class="fact-num">1</span>
+                  <p>Attend at least 8 antenatal visits during pregnancy.</p>
+                </div>
+                <div class="fact-item">
+                  <span class="fact-num">2</span>
+                  <p>
+                    Take iron and folic acid supplements daily to prevent
+                    anemia.
+                  </p>
+                </div>
+              </div>
+              <h3>Prevention & Action Tips</h3>
+              <div class="tips-box">
+                <div class="tip-item">
+                  ✓ Visit your nearest clinic as soon as you know you’re
+                  pregnant.
+                </div>
+                <div class="tip-item">
+                  ✓ Deliver at a health facility with skilled birth attendants.
+                </div>
+              </div>
+            </div>
+            <aside class="sidebar">
+              <h4>Other Topics</h4>
+              <button class="side-link" data-tab="malaria">
+                ☀️ Malaria Prevention
+              </button>
+              <button class="side-link" data-tab="child">
+                ✏️ Child Immunization
+              </button>
+              <button class="side-link" data-tab="nutrition">
+                🍽️ Nutrition & Healthy Living
+              </button>
+              <button class="side-link" data-tab="disease">
+                🛡️ Disease Prevention Tips
+              </button>
+            </aside>
+          </div>
+        </div>
+
+        <!-- Add more tabs: child, nutrition, disease with same structure -->
+        <div class="tab-content" id="Child Immunization">
+          <div class="content-grid">
+            <div class="main-content">
+              <div class="content-header">
+                <div class="icon-box pink">♀️</div>
+                <h2>Child Immunization</h2>
+              </div>
+              <p>
+                Vaccines protect children from life-threatening diseases.
+                Following the national immunization schedule gives your child
+                the best start in life.
+              </p>
+              <h3>Key Facts</h3>
+              <div class="facts-box">
+                <div class="fact-item">
+                  <span class="fact-num">1</span>
+                  <p>
+                    Immunization prevents an estimated 2-3 million deaths
+                    globally every year from diseases like diphtheria, tetanus,
+                    whooping cough, and measles.
+                  </p>
+                </div>
+                <div class="fact-item">
+                  <span class="fact-num">2</span>
+                  <p>
+                    Sierra Leone's Expanded Programme on Immunization (EPI)
+                    provides free vaccines to all children under one year
+                  </p>
+                </div>
+
+                <div class="fact-item">
+                  <span class="fact-num">3</span>
+                  <p>
+                    Key vaccines include BCG (tuberculosis), OPV (polio),
+                    Pentavalent (5-in-1), measles, yellow fever, and rotavirus
+                    vaccines.
+                  </p>
+                </div>
+
+                <div class="fact-item">
+                  <span class="fact-num">4</span>
+                  <p>
+                    Children should complete all vaccinations by their first
+                    birthday, with some booster doses later
+                  </p>
+                </div>
+              </div>
+              <h3>Prevention & Action Tips</h3>
+              <div class="tips-box">
+                <div class="tip-item">
+                  ✓ Follow the national immunization schedule — keep your
+                  child's vaccination card safe and bring it to every visit
+                </div>
+                <div class="tip-item">
+                  ✓ Vaccinate your child on time — delayed vaccinations leave
+                  your child vulnerable to preventable diseases.
+                </div>
+                <div class="tip-item">
+                  ✓ All government health facilities provide free immunization
+                  services
+                </div>
+                <div class="tip-item">
+                  ✓ If you miss a scheduled vaccination date, take your child to
+                  the nearest health facility as soon as possible.
+                </div>
+                <div class="tip-item">
+                  ✓ Vaccines are safe and effective — mild side effects like
+                  fever or soreness are normal and temporary
+                </div>
+              </div>
+            </div>
+            <aside class="sidebar">
+              <h4>Other Topics</h4>
+              <button class="side-link" data-tab="malaria">
+                ☀️ Malaria Prevention
+              </button>
+              <button class="side-link" data-tab="child">
+                ✏️ Child Immunization
+              </button>
+              <button class="side-link" data-tab="nutrition">
+                🍽️ Nutrition & Healthy Living
+              </button>
+              <button class="side-link" data-tab="disease">
+                🛡️ Disease Prevention Tips
+              </button>
+            </aside>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        const tabBtns = document.querySelectorAll(".tab-btn, .side-link");
+        const tabContents = document.querySelectorAll(".tab-content");
+
+        tabBtns.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const target = btn.getAttribute("data-tab");
+
+            // Remove active from all buttons
+            document
+              .querySelectorAll(".tab-btn")
+              .forEach((b) => b.classList.remove("active"));
+
+            // Add active to clicked button
+            if (btn.classList.contains("tab-btn")) {
+              btn.classList.add("active");
+            } else {
+              // If sidebar link clicked, activate matching top button too
+              document
+                .querySelector(`.tab-btn[data-tab="${target}"]`)
+                .classList.add("active");
+            }
+
+            // Hide all content
+            tabContents.forEach((content) =>
+              content.classList.remove("active"),
+            );
+
+            // Show target content
+            document.getElementById(target).classList.add("active");
+          });
+        });
+      </script>
+    </section>
+
+    <section class="faq-section">
+      <div class="faq-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Quick answers to common health questions from our community.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How do I know if I have malaria?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Common malaria symptoms include fever, chills, headache, body
+              aches, nausea, and vomiting. Children under 5 and pregnant women
+              are at highest risk. If you have these symptoms, visit the nearest
+              health facility immediately for a rapid diagnostic test. Early
+              treatment with ACTs is critical.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Where can I get free healthcare in Sierra Leone?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Free healthcare is available for children under 5, pregnant women,
+              and lactating mothers at all government hospitals and clinics
+              under the Free Health Care Initiative. Use our "Health Services"
+              directory to find the nearest facility in your district.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What vaccines does my child need?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Your child needs vaccines at birth, 6 weeks, 10 weeks, 14 weeks, 9
+              months, and 18 months. These protect against TB, Polio,
+              Diphtheria, Tetanus, Hepatitis B, Pneumonia, Diarrhea, Measles,
+              and Yellow Fever. Visit your nearest clinic with your child’s
+              health card for the full schedule.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How can I prevent cholera?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Prevent cholera by drinking only treated/boiled water, washing
+              hands with soap after using toilet and before eating, keeping food
+              covered, and using clean latrines. During outbreaks, avoid raw
+              foods and crowded areas with poor sanitation.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What should I do in a medical emergency?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              For emergencies like heavy bleeding, difficulty breathing,
+              unconsciousness, or severe injury: 1. Call your nearest hospital
+              ambulance immediately. 2. Keep the person lying down and warm. 3.
+              Do not give food or water if unconscious. Check our "Emergency
+              Contacts" page for numbers in your area.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is it safe to take herbal remedies during pregnancy?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Some herbs can be harmful during pregnancy and may cause
+              miscarriage or birth defects. Always consult a nurse, midwife, or
+              doctor before taking any herbal remedy, traditional medicine, or
+              new supplement while pregnant.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-col">
+          <div class="brand">
+            <div class="logo-box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                />
+                <path d="M9 12h6M12 9v6" />
+              </svg>
+            </div>
+            <h3>Sierra Health Connect</h3>
+          </div>
+
+          <p class="tagline">
+            Improving healthcare access across Sierra Leone through reliable
+            health information, hospital directories, and emergency resources.
+          </p>
+
+          <div class="socials">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="X">X</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Health Services</a></li>
+            <li><a href="#">Health Education</a></li>
+            <li><a href="#">Health Alerts</a></li>
+            <li><a href="#">Emergency Contacts</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">General Consultation</a></li>
+            <li><a href="#">Maternity Care</a></li>
+            <li><a href="#">Child Health Services</a></li>
+            <li><a href="#">Emergency Care</a></li>
+            <li><a href="#">Pharmacy Services</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact -->
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="contact-list">
+            <li>📍 Freetown, Sierra Leone</li>
+            <li>📞 +232 76 123 456</li>
+            <li>✉️ info@sierrahealthconnect.org</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <p>© 2026 Sierra Health Connect. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const faqItems = document.querySelectorAll(".faq-item");
+
+      faqItems.forEach((item) => {
+        const btn = item.querySelector(".faq-question");
+        const icon = item.querySelector(".icon");
+
+        btn.addEventListener("click", () => {
+          const isActive = item.classList.contains("active");
+
+          // Close all other FAQs
+          faqItems.forEach((otherItem) => {
+            otherItem.classList.remove("active");
+            otherItem.querySelector(".icon").textContent = "+";
+          });
+
+          // If clicked one wasn't active, open it
+          if (!isActive) {
+            item.classList.add("active");
+            icon.textContent = "−";
+          }
+        });
+      });
+    });
+  </script>
+</html>

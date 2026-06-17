@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Services</title>
+    <link rel="stylesheet" href="./css/health-alert.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#">Sierra Health Connect</a>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li class="hidden">
+          <a href="./healthserices.html">Health Services</a>
+        </li>
+        <li class="hidden">
+          <a href="./health-education.html">Health Education</a>
+        </li>
+        <li class="hidden"><a href="./health-alert.html">Health Alerts</a></li>
+        <li class="hidden">
+          <a href="./emergency.html">Emergency Contacts</a>
+        </li>
+        <li><a href="./contact.html">Contacts</a></li>
+      </ul>
+      <button type="button" class="let-talk">📞 Emergency</button>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="Overlay"></div>
+
+      <div class="content">
+        <h1>Health Alerts & Updates</h1>
+        <p>
+          Stay informed about disease outbreaks, public health announcements,
+          and <br />emergency health updates across Sierra Leone.
+        </p>
+      </div>
+    </section>
+
+    <section class="alerts-section">
+      <h2>Recent Alerts</h2>
+
+      <div class="alerts-layout">
+        <!-- Left: Alert List -->
+        <div class="alerts-list">
+          <button class="alert-item active" data-alert="malaria">
+            <div class="alert-meta">
+              <span class="severity high">HIGH</span>
+              <span class="date">June 2026</span>
+            </div>
+            <h4>Malaria Peak Season Alert</h4>
+          </button>
+
+          <button class="alert-item" data-alert="immunization">
+            <div class="alert-meta">
+              <span class="severity medium">MEDIUM</span>
+              <span class="date">June 2026</span>
+            </div>
+            <h4>National Immunization Campaign — June 2026</h4>
+          </button>
+
+          <button class="alert-item" data-alert="cholera">
+            <div class="alert-meta">
+              <span class="severity medium">MEDIUM</span>
+              <span class="date">May 2026</span>
+            </div>
+            <h4>Cholera Prevention Guidelines — Rainy Season</h4>
+          </button>
+
+          <button class="alert-item" data-alert="maternal">
+            <div class="alert-meta">
+              <span class="severity medium">MEDIUM</span>
+              <span class="date">April 2026</span>
+            </div>
+            <h4>Maternal Health Services Expansion</h4>
+          </button>
+
+          <button class="alert-item" data-alert="lassa">
+            <div class="alert-meta">
+              <span class="severity low">LOW</span>
+              <span class="date">March 2026</span>
+            </div>
+            <h4>Lassa Fever Awareness</h4>
+          </button>
+        </div>
+
+        <!-- Right: Alert Detail -->
+        <div class="alert-detail">
+          <!-- Alert 1: Malaria -->
+          <div class="alert-content active" id="malaria">
+            <div class="detail-header">
+              <span class="severity high">HIGH SEVERITY</span>
+              <span class="date">June 2026</span>
+              <span class="tag">⚠️ Outbreak</span>
+            </div>
+
+            <h3>Malaria Peak Season Alert</h3>
+
+            <p>
+              Malaria transmission has increased significantly with the onset of
+              the rainy season. All citizens are advised to take heightened
+              preventive measures, particularly in the Western Area, Southern
+              Province, and Eastern Province.
+            </p>
+
+            <p>
+              The Ministry of Health and Sanitation has reported a substantial
+              increase in malaria cases across multiple districts as the rainy
+              season intensifies. Health facilities are seeing elevated numbers
+              of patients presenting with malaria symptoms. Children under five
+              and pregnant women remain the most vulnerable groups. The National
+              Malaria Control Programme is distributing insecticide-treated nets
+              in high-burden areas.
+            </p>
+
+            <div class="guidelines-box">
+              <h4>✓ Prevention & Action Guidelines</h4>
+              <ol>
+                <li>
+                  Sleep under insecticide-treated mosquito nets every night
+                  without exception
+                </li>
+                <li>
+                  Seek immediate medical attention if you experience fever,
+                  chills, or headache
+                </li>
+                <li>
+                  Pregnant women should take intermittent preventive treatment
+                  as prescribed at antenatal visits
+                </li>
+                <li>
+                  Clear standing water around your home and keep surroundings
+                  clean
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <!-- Alert 2: Immunization -->
+          <div class="alert-content" id="immunization">
+            <div class="detail-header">
+              <span class="severity medium">MEDIUM SEVERITY</span>
+              <span class="date">June 2026</span>
+              <span class="tag">📢 Campaign</span>
+            </div>
+            <h3>National Immunization Campaign — June 2026</h3>
+            <p>
+              The Ministry of Health and Sanitation is conducting a nationwide
+              polio and measles vaccination campaign targeting all children
+              under five years of age. The campaign runs from June 15-22, 2026,
+              across all 16 districts.
+              <br /><br />
+              Health workers will visit households, schools, markets, and
+              community centers to administer vaccines. All children under five
+              should receive both the polio vaccine and measles vaccine
+              regardless of previous vaccination status. This campaign is free
+              of charge and is part of the government's commitment to
+              eliminating vaccine-preventable diseases. Parents and guardians
+              are urged to ensure their children are available during the
+              campaign period.
+            </p>
+            <div class="guidelines-box">
+              <h4>✓ What to do</h4>
+              <ol>
+                <li>
+                  Ensure all children under five receive vaccines during the
+                  campaign period
+                </li>
+                <li>
+                  Keep your child's vaccination card available for health
+                  workers to update
+                </li>
+                <li>
+                  Contact your nearest health facility if health workers miss
+                  your household
+                </li>
+                <li>
+                  Spread the word in your community to ensure full coverag
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <!-- Add cholera, maternal, lassa content blocks same way -->
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const alertItems = document.querySelectorAll(".alert-item");
+        const alertContents = document.querySelectorAll(".alert-content");
+
+        alertItems.forEach((item) => {
+          item.addEventListener("click", () => {
+            const target = item.getAttribute("data-alert");
+
+            // Remove active from all list items
+            alertItems.forEach((i) => i.classList.remove("active"));
+            // Add active to clicked
+            item.classList.add("active");
+
+            // Hide all content
+            alertContents.forEach((c) => c.classList.remove("active"));
+            // Show target content
+            document.getElementById(target).classList.add("active");
+          });
+        });
+      });
+    </script>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-col">
+          <div class="brand">
+            <div class="logo-box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                />
+                <path d="M9 12h6M12 9v6" />
+              </svg>
+            </div>
+            <h3>Sierra Health Connect</h3>
+          </div>
+
+          <p class="tagline">
+            Improving healthcare access across Sierra Leone through reliable
+            health information, hospital directories, and emergency resources.
+          </p>
+
+          <div class="socials">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="X">X</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Health Services</a></li>
+            <li><a href="#">Health Education</a></li>
+            <li><a href="#">Health Alerts</a></li>
+            <li><a href="#">Emergency Contacts</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">General Consultation</a></li>
+            <li><a href="#">Maternity Care</a></li>
+            <li><a href="#">Child Health Services</a></li>
+            <li><a href="#">Emergency Care</a></li>
+            <li><a href="#">Pharmacy Services</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact -->
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="contact-list">
+            <li>📍 Freetown, Sierra Leone</li>
+            <li>📞 +232 76 123 456</li>
+            <li>✉️ info@sierrahealthconnect.org</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <p>© 2026 Sierra Health Connect. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
