@@ -8,17 +8,23 @@
   </head>
   <body>
     <header>
-      <a class="logo" href="#">Sierra Health Connect</a>
+      <a class="logo" href="./index.html">Sierra Health Connect</a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
       <ul>
         <li><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About Us</a></li>
-        <li class="hidden"><a href="./healthserices.html">Health Services</a></li>
-        <li class="hidden"><a href="./health-education.html">Health Education</a></li>
-        <li class="hidden"><a href="./health-alert.html">Health Alerts</a></li>
-        <li class="hidden"><a href="./emergency.html">Emergency Contacts</a></li>
+        <li><a href="./healthserices.html">Health Services</a></li>
+        <li><a href="./health-education.html">Health Education</a></li>
+        <li><a href="./health-alert.html">Health Alerts</a></li>
+        <li><a href="./emergency.html">Emergency Contacts</a></li>
         <li><a href="./contact.html">Contacts</a></li>
       </ul>
-      <button type="button" class="let-talk">📞 Emergency</button>
+      <a href="./emergency.html" class="let-talk">📞 Emergency</a>
     </header>
 
     <!-- HERO SECTION -->
@@ -120,12 +126,12 @@
           health
         </p>
       </div>
-    </section>
-      </div>
+    </div>
+  </section>
 
     <!-- HEALTH SERVICES SECTION -->
     <section class="health-services">
-      <div class="badge2" style="margin-left: 500px;">
+      <div class="badge2">
         <i class="fa-regular fa-heart-2"></i>
         🩺What We Offer
       </div>
@@ -139,7 +145,8 @@
         </p>
       </div>
 
-      <div class="stat-card">
+      <div class="stat-card-all">
+        <div class="stat-card">
         <div class="icon-box">🩺</div>
 
         <h3 style="font-size: 28px">General Consultation</h3>
@@ -204,11 +211,12 @@
           Facilities for critical medical situations.
         </p>
       </div>
+      </div>
     </section>
 
     <!-- HEALTH EDUCATION SECTION -->
     <section class="health-education">
-      <div class="badge3" style="margin-left: 500px; margin-bottom: 50px;">
+      <div class="badge3">
         <i class="fa-regular fa-heart-2"></i>
         ⚠️ CHANLLENGES & SOLUTIONS
       </div>
@@ -297,7 +305,7 @@
 
     <!-- HEALTH ALERT SECTION -->
     <section class="health-alert">
-      <div class="badge4" style= "margin-left: 500px; margin-bottom: 30px;">
+      <div class="badge4">
         💡 HEALTHY LIVING
       </div>
 
