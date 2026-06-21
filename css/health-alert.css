@@ -130,6 +130,7 @@ header ul li a:hover {
   transform: translateY(-6px) rotate(-45deg);
 }
 
+/* Mobile Emergency Button */
 header .let-talk {
   display: inline-block;
   padding: 6px 12px;
@@ -541,7 +542,8 @@ h1 {
   }
 }
 
-/* DESKTOP VIEW */
+/* DESKTOP VIEW - 992px and up */
+@media only screen and (min-width: 992px) {
   .hamburger {
     display: none;
   }
@@ -576,12 +578,12 @@ h1 {
 
   header .let-talk {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 0.9rem;
   }
 
   .logo {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   h1 {
