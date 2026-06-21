@@ -110,22 +110,22 @@ header ul li a:hover {
 }
 
 /* Toggled State */
-.menu-toggle:checked ~ ul {
+.menu-toggle:checked~ul {
   transform: translateY(0);
   opacity: 1;
   visibility: visible;
 }
 
 /* Hamburger Animation */
-.menu-toggle:checked ~ .hamburger span:nth-child(1) {
+.menu-toggle:checked~.hamburger span:nth-child(1) {
   transform: translateY(6px) rotate(45deg);
 }
 
-.menu-toggle:checked ~ .hamburger span:nth-child(2) {
+.menu-toggle:checked~.hamburger span:nth-child(2) {
   opacity: 0;
 }
 
-.menu-toggle:checked ~ .hamburger span:nth-child(3) {
+.menu-toggle:checked~.hamburger span:nth-child(3) {
   transform: translateY(-6px) rotate(-45deg);
 }
 
@@ -441,12 +441,15 @@ h1 {
 .guidance-icon.heart {
   background: #fef2f2;
 }
+
 .guidance-icon.drop {
   background: #fef2f2;
 }
+
 .guidance-icon.lungs {
   background: #eff6ff;
 }
+
 .guidance-icon.fever {
   background: #fff7ed;
 }
@@ -621,8 +624,6 @@ h1 {
     font-size: 2.5rem;
   }
 
-
-
   .hero {
     padding: 80px 24px;
   }
@@ -652,79 +653,79 @@ h1 {
 }
 
 /* DESKTOP VIEW */
-  .hamburger {
-    display: none;
-  }
+.hamburger {
+  display: none;
+}
 
-  header ul {
-    position: static;
-    flex-direction: row;
-    width: auto;
-    background: transparent;
-    padding: 0;
-    box-shadow: none;
-    transform: none;
-    opacity: 1;
-    visibility: visible;
-    gap: 40px;
-    backdrop-filter: none;
-  }
+header ul {
+  position: static;
+  flex-direction: row;
+  width: auto;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+  transform: none;
+  opacity: 1;
+  visibility: visible;
+  gap: 40px;
+  backdrop-filter: none;
+}
 
-  header ul li {
-    width: auto;
-  }
+header ul li {
+  width: auto;
+}
 
-  header ul li a {
-    padding: 6px 12px;
-    font-size: 0.85rem;
-    border-radius: 4px;
-  }
+header ul li a {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+}
 
-  header ul li a:hover {
-    background: rgba(255, 255, 255, 0.15);
-  }
+header ul li a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
 
-  header .let-talk {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 0.9rem;
-  }
+header .let-talk {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
 
-  .logo {
-    font-size: 1.4rem;
-  }
+.logo {
+  font-size: 1.4rem;
+}
 
-  h1 {
-    font-size: 3rem;
-  }
+h1 {
+  font-size: 3rem;
+}
 
-  .content p {
-    font-size: 1.1rem;
-  }
+.content p {
+  font-size: 1.1rem;
+}
 
-  .emergency-section,
-  .contacts-emergency-section {
-    padding: 60px 24px;
-  }
+.emergency-section,
+.contacts-emergency-section {
+  padding: 60px 24px;
+}
 
-  .section-header h2 {
-    font-size: 1.7rem;
-  }
+.section-header h2 {
+  font-size: 1.7rem;
+}
 
-  .ministry-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.ministry-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
 
-  .guidance-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
+.guidance-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
 
-  .hospital-table-section {
-    padding: 32px;
-  }
+.hospital-table-section {
+  padding: 32px;
+}
 
-  .footer-grid {
-    grid-template-columns: 2fr 1fr 1fr 1.2fr;
-    gap: 40px;
-  }
+.footer-grid {
+  grid-template-columns: 2fr 1fr 1fr 1.2fr;
+  gap: 40px;
+}
 }
