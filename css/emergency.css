@@ -24,17 +24,17 @@ ul li {
   list-style: none;
 }
 
-/* HEADER  */
+/* HEADER - MOBILE FIRST */
 header {
   display: flex;
   justify-content: space-between;
   padding: 10px 16px;
   align-items: center;
-  background: rgba(97, 114, 172, 0.95);
+  background: #6172acc3;
   z-index: 999;
   position: sticky;
   top: 0;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
 }
 
 .logo {
